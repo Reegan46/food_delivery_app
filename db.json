@@ -1,0 +1,189 @@
+{
+  "accounts": [
+    {
+      "id": "u1",
+      "email": "sample@gmail.com",
+      "password": "12345",
+      "role": "user"
+    },
+    {
+      "id": "u2",
+      "email": "reegan@gmail.com",
+      "password": "12345",
+      "role": "user"
+    },
+    {
+      "id": "u3",
+      "email": "krish@gmail.com",
+      "password": "12345",
+      "role": "user"
+    },
+    {
+      "id": "a1",
+      "email": "admin@gmail.com",
+      "password": "admin123",
+      "role": "admin"
+    },
+    {
+      "id": "c178",
+      "email": "Reegan@mail.com",
+      "password": "12"
+    }
+  ],
+  "foods": [
+    {
+      "name": "French Fries",
+      "price": 89,
+      "img": "https://tse2.mm.bing.net/th/id/OIP.UyXaDth-pAyEa6iU0BfgbwHaFj?pid=Api&P=0&h=180",
+      "desc": "Crispy golden potato fries",
+      "id": "1"
+    },
+    {
+      "name": "Veg Sandwich",
+      "price": 99,
+      "img": "https://tse1.mm.bing.net/th/id/OIP.gTfC3uKTt54yVyyFxRCzIAHaHa?pid=Api&P=0&h=180",
+      "desc": "Fresh veggies layered between toasted bread",
+      "id": "2"
+    },
+    {
+      "id": "3",
+      "name": "Fried Rice",
+      "price": 150,
+      "img": "https://tse3.mm.bing.net/th/id/OIP.gpD8wC7-RpOqR1_eqtf4FQHaE8?pid=Api&P=0&h=180",
+      "desc": "Veg fried rice"
+    },
+    {
+      "name": "Margherita Pizza",
+      "price": 200,
+      "img": "https://tse2.mm.bing.net/th/id/OIP.RWaaZCnAJwE8O0FxwD7y0AHaEo?pid=Api&P=0&h=18071-b6e93d1d5b46",
+      "desc": "Classic cheese pizza with basil",
+      "id": "74b8"
+    },
+    {
+      "id": "bdb7",
+      "name": "Chicken Burger",
+      "price": 159,
+      "img": "https://www.kitchensanctuary.com/wp-content/uploads/2019/08/Crispy-Chicken-Burger-square-FS-4518.jpg",
+      "desc": "Juicy chicken patty with lettuce & mayo"
+    },
+    {
+      "id": "5973",
+      "name": "Mandi",
+      "price": 299,
+      "img": "https://tse3.mm.bing.net/th/id/OIP.NLbxcxQ52qnB4hYyOG239QHaFj?pid=Api&P=0&h=180",
+      "desc": "Classic cheese pizza with basil"
+    },
+    {
+      "id": "70d1",
+      "name": "Pothichoru",
+      "price": 189,
+      "img": "https://tse2.mm.bing.net/th/id/OIP.g051-EQaBWDW7EnigiIYnQHaJc?pid=Api&P=0&h=180",
+      "desc": " Everything is wrapped in banana leaf."
+    }
+  ],
+  "orders": [
+    {
+      "0": {
+        "id": 2,
+        "name": "Burger",
+        "price": 90
+      },
+      "1": {
+        "id": 1,
+        "name": "Pizza",
+        "price": 120
+      },
+      "id": "89c0"
+    },
+    {
+      "0": {
+        "id": 2,
+        "name": "Burger",
+        "price": 90
+      },
+      "1": {
+        "id": 1,
+        "name": "Pizza",
+        "price": 120
+      },
+      "id": "2880"
+    },
+    {
+      "0": {
+        "id": 1,
+        "name": "Pizza",
+        "price": 120
+      },
+      "id": "f6bf"
+    },
+    {
+      "0": {
+        "id": "3",
+        "name": "Fried Rice",
+        "price": 150,
+        "img": "https://tse3.mm.bing.net/th/id/OIP.gpD8wC7-RpOqR1_eqtf4FQHaE8?pid=Api&P=0&h=180",
+        "desc": "Veg fried rice"
+      },
+      "1": {
+        "name": "Margherita Pizza",
+        "price": 200,
+        "img": "https://tse2.mm.bing.net/th/id/OIP.RWaaZCnAJwE8O0FxwD7y0AHaEo?pid=Api&P=0&h=18071-b6e93d1d5b46",
+        "desc": "Classic cheese pizza with basil",
+        "id": "74b8"
+      },
+      "id": "1adb"
+    },
+    {
+      "id": "3528",
+      "items": [
+        {
+          "name": "Veg Sandwich",
+          "price": 99,
+          "img": "https://tse1.mm.bing.net/th/id/OIP.gTfC3uKTt54yVyyFxRCzIAHaHa?pid=Api&P=0&h=180",
+          "desc": "Fresh veggies layered between toasted bread",
+          "id": "2"
+        }
+      ],
+      "total": 99,
+      "user": "reeganr897@gmail.come",
+      "createdAt": "2025-11-06T05:03:56.460Z",
+      "status": "Placed"
+    },
+    {
+      "id": "dbbb",
+      "items": [
+        {
+          "name": "Veg Sandwich",
+          "price": 99,
+          "img": "https://tse1.mm.bing.net/th/id/OIP.gTfC3uKTt54yVyyFxRCzIAHaHa?pid=Api&P=0&h=180",
+          "desc": "Fresh veggies layered between toasted bread",
+          "id": "2"
+        }
+      ],
+      "total": 99,
+      "user": "reeganr897@gmail.come",
+      "createdAt": "2025-11-06T05:05:43.928Z",
+      "status": "Placed"
+    },
+    {
+      "0": {
+        "id": "3",
+        "name": "Fried Rice",
+        "price": 150,
+        "img": "https://tse3.mm.bing.net/th/id/OIP.gpD8wC7-RpOqR1_eqtf4FQHaE8?pid=Api&P=0&h=180",
+        "desc": "Veg fried rice"
+      },
+      "id": "f92a"
+    },
+    {
+      "0": {
+        "id": "3",
+        "name": "Fried Rice",
+        "price": 150,
+        "img": "https://tse3.mm.bing.net/th/id/OIP.gpD8wC7-RpOqR1_eqtf4FQHaE8?pid=Api&P=0&h=180",
+        "desc": "Veg fried rice"
+      },
+      "id": "82ac"
+    }
+  ]
+}
